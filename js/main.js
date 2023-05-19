@@ -54,6 +54,7 @@ let reset = document.getElementById('reset')
 reset.addEventListener('click', function(){
 
     document.getElementById('nome_passeggero').innerHTML = ' '
+    document.getElementById('ticket').innerHTML = ' '
     document.getElementById('priceTicket').innerHTML = ' '
     document.getElementById("carrozza").innerHTML = ' '
     document.getElementById("cp").innerHTML = ' '
